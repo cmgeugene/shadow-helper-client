@@ -1,0 +1,16 @@
+{
+  "client_id": "https://cmgeugene.github.io/shadow-helper-client/shadow-helper-client.json",
+  "client_name": "SHADOW Helper",
+  "redirect_uris": [
+    "http://127.0.0.1:8765/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "projects:read assets:read assets:write generations:write"
+}
